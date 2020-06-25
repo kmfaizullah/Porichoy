@@ -1,0 +1,46 @@
+[{
+  "_id": {
+    "$oid": "5ef44b65103ef7312040daec"
+  },
+  "name": "K. M. Faizullah Fuhad",
+  "email": "faizullah.fuad@northsouth.edu",
+  "password": "12345",
+  "number": "01749406545",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5ef44b867eb8cc2d4c342848"
+  },
+  "name": "K. M. Faizullah Fuhad",
+  "email": "faizullah.fuad@northsouth.edu",
+  "password": "12345",
+  "number": "01749406545",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5ef44bcec234440920834ea8"
+  },
+  "name": "K. M. Faizullah Fuhad",
+  "email": "faizullah.fuad@northsouth.edu",
+  "password": "789",
+  "number": "01749406545",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5ef44c298f675c312022a3b6"
+  },
+  "name": "Tuba",
+  "email": "fuhadfaizullah@gmail.com",
+  "password": "12345",
+  "number": "123",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5ef44df52d09081afcfc6327"
+  },
+  "name": "fuhad",
+  "email": "abc@gmail.com",
+  "password": "11111",
+  "number": "123",
+  "__v": 0
+}]

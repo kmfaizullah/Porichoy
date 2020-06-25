@@ -1,0 +1,23 @@
+[{
+  "_id": {
+    "$oid": "5ef364ebadb81001f0355d14"
+  },
+  "title": "Deep Learning Based Automatic Malaria Parasite Detection from Blood Smear and Its Smartphone Based Application",
+  "description": "Malaria is a life-threatening disease that is spread by the Plasmodium parasites. It is detected by trained microscopists who analyze microscopic blood smear images. Modern deep learning techniques may be used to do this analysis automatically. The need for the trained personnel can be greatly reduced with the development of an automatic accurate and efficient model. In this article, we propose an entirely automated Convolutional Neural Network (CNN) based model for the diagnosis of malaria from the microscopic blood smear images. A variety of techniques including knowledge distillation, data augmentation, Autoencoder, feature extraction by a CNN model and classified by Support Vector Machine (SVM) or K-Nearest Neighbors (KNN) are performed under three training procedures named general training, distillation training and autoencoder training to optimize and improve the model accuracy and inference performance. Our deep learning-based model can detect malarial parasites from microscopic images with an accuracy of 99.23% while requiring just over 4600 floating point operations. For practical validation of model efficiency, we have deployed the miniaturized model in different mobile phones and a server-backed web application. Data gathered from these environments show that the model can be used to perform inference under 1 s per sample in both offline (mobile only) and online (web application) mode, thus engendering confidence that such models may be deployed for efficient practical inferential systems.",
+  "markdown": "https://www.mdpi.com/2075-4418/10/5/329/htm",
+  "createdAt": {
+    "$date": "2020-06-24T14:36:27.011Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5ef3655fadb81001f0355d16"
+  },
+  "title": "App for low-cost smartphones can diagnose malaria (Featured by Physicsworld magazine)",
+  "description": "A team of six engineers from the North South University of Bangladesh has developed a program that can automatically diagnose malaria using a smartphone presented with a segmented blood smear image. This approach has potential to overcome the need for expensive equipment and highly trained personnel for malaria diagnosis in resource-limited settings. If patient samples, so-called blood smears, are imaged using a mobile phone and microscope, then the app can analyse the images for the presence of malaria parasites.",
+  "markdown": "https://physicsworld.com/a/app-for-low-cost-smartphones-can-diagnose-malaria/",
+  "createdAt": {
+    "$date": "2020-06-24T14:38:23.568Z"
+  },
+  "__v": 0
+}]

@@ -1,0 +1,15 @@
+[{
+  "_id": {
+    "$oid": "5ef36e85a51d6811006161ed"
+  },
+  "name": "K. M. Faizullah Fuhad",
+  "summary": "I am a young, dynamic and research oriented person. I love to obtain knowledge and very often I am being motivated with the quote \"Knowledge is power\" . I will be pleased if my little knowledge and dedication to research helps mankind in foreseeable future.",
+  "graduate": "North South University (NSU), CGPA - 3.76",
+  "hsc": "Amritalal Dey College, Barishal, GPA - 5.00",
+  "ssc": "Udayan Secondary School, Barishal, GPA - 5.00",
+  "language": "C, C++, Java, Java Script, Python, PHP",
+  "framework": "Node.js, React.js, Codeigneiter, Flask, Django, Tensorflow, Boostrap",
+  "others": "Java Swing, Git, Matplotlib, OpenCV, Numpy, Pandas",
+  "leader": "Bangladesh Military Academy (BMA), Bhatiary, Chattogram, Bangladesh,\r\nGentleman Cadet (Currently Officer Cadet),\r\nJuly 2014 - June 2015",
+  "__v": 0
+}]

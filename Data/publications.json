@@ -1,0 +1,25 @@
+[{
+  "_id": {
+    "$oid": "5ef38c99a9e271139cec329a"
+  },
+  "publication": "K. M. Faizullah Fuhad, Jannat Ferdousey Tuba, Md. Rabiul Ali Sarker, Sifat Momen, Nabeel Mohammed and Tanzilur Rahman \"Deep Learning Based Automatic Malaria Parasite Detection from Blood Smear and its Smartphone Based Application\" . Diagnostics 2020, 10, 329.",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5ef38caaa9e271139cec329b"
+  },
+  "publication": "Md. Hasan, K. M. Faizullah Fuhad, Abu Mohammed Sabbir Khan, Sabit Ibn Ali Khan, Md. Jumar Alam, Jannat Ferdousey Tuba, Sifat Momen, Nabeel Mohammed and Fuad Rahman “Chittron V2 : Bangla Image Captioning with Attention and Pretrained Decoder”, Applied Sciences (Under Review).",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5ef38cb9a9e271139cec329c"
+  },
+  "publication": "K. M. Faizullah Fuhad, Jannat Ferdousey Tuba, Tanzilur Rahman, and Nabeel Mohammed “CNN Based Model for Malaria Diagnosis with Knowledge Distillation” , 4th International Conference on Digital Signal Processing (ICDSP'20), China, 2020 (Accepted) .",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5ef38ccca9e271139cec329d"
+  },
+  "publication": "Koushik Roy, Md. Hasan, K. M. Faizullah Fuhad , Nabeel Mohammed, A K M Shahriar Rabby, Nazmul Hasan, Jebun Nahar and Fuad Rahman \"Bangla Part of Speech tagging using Contextual Embedding and Oversampling techniques\" , Future Technologies Conference - 2020 (FTC 2020), Vancouver, Canada (Accepted).",
+  "__v": 0
+}]
