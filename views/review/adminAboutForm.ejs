@@ -1,0 +1,53 @@
+<%- include('adminHeader')%>
+
+<div class="container">
+    <h1 class="mb-4">Information About Me</h1>
+    <form action="aboutInsert" method="POST">
+        <div class="form-group">
+            <label for="name">Name</label>
+            <input required  title ="name" type="text" name="name" id="name" class="form-control">
+          </div>
+          <div class="form-group">
+            <label for="description">Summary</label>
+            <textarea name="summary" id="summary" class="form-control"></textarea>
+          </div>
+          <div class="form-group">
+            <label for="description">Graduate Degree</label>
+            <textarea name="graduate" id="graduate" class="form-control"></textarea>
+          </div>
+          <div class="form-group">
+            <label for="description">HSC</label>
+            <textarea name="hsc" id="hsc" class="form-control"></textarea>
+          </div>
+          <div class="form-group">
+            <label for="description">SSC</label>
+            <textarea name="ssc" id="ssc" class="form-control"></textarea>
+          </div>
+          <div class="form-group">
+            <label for="language">Programming Language</label>
+            <textarea required name="language" id="language" class="form-control"></textarea>
+          </div>
+          <div class="form-group">
+            <label for="framework">Frameworks</label>
+            <textarea required name="framework" id="framework" class="form-control"></textarea>
+          </div>
+          <div class="form-group">
+            <label for="others">Others</label>
+            <textarea required name="others" id="others" class="form-control"></textarea>
+          </div>
+          <div class="form-group">
+            <label for="leader">Leadership</label>
+            <textarea required name="leader" id="leader" class="form-control"></textarea>
+          </div>
+          
+          <a href="/review/adminAbout" class="btn btn-secondary">Cancel</a>
+          <button type="submit" class="btn btn-primary">Save</button>
+
+    </form>
+ </div>
+
+
+
+
+
+<%- include('footer')%>

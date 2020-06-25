@@ -1,0 +1,46 @@
+<%- include('adminHeader')%>
+
+    <div class="container">
+        <h1 class = "mb-4">About Me</h1>
+        <a href="/review/adminAboutForm" class="btn btn-success"> New About</a>
+        <% about.forEach(about =>{ %>
+            <div class="card mt-4">
+                <div class="card-body">
+                    <h3 class="card-title"><%= about.name%></h3>
+            
+                    <div class="card-text mb-2">
+                        <%=about.summary%>
+                    </div>
+                    <div class="card-text mb-2">
+                        <%=about.graduate%>
+                    </div>
+                    <div class="card-text mb-2">
+                        <%=about.hsc%>
+                    </div>
+                    <div class="card-text mb-2">
+                        <%=about.ssc%>
+                    </div>
+                    <div class="card-text mb-2">
+                        <%=about.language%>
+                    </div>
+                    <div class="card-text mb-2">
+                        <%=about.framework%>
+                    </div>
+                    <div class="card-text mb-2">
+                        <%=about.others%>
+                    </div>
+                    <div class="card-text mb-2">
+                        <%=about.leader%>
+                    </div>
+                    
+                    <form action ="/review/about/<%=about.id%>?_method=DELETE" method="POST" class="d-inline">
+                        <button type="submit" class="btn btn-danger">Delete</button>
+                    </form>
+                </div>
+            </div>
+
+       <% })%>
+    
+
+    </div>
+    <%- include('footer')%>

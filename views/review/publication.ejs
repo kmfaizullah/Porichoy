@@ -1,0 +1,23 @@
+<%- include('header')%>
+
+
+<div class="row">
+
+   
+  <div class="card mt-4">
+    <div class="card-body">
+        <h3 class="card-title">Publications</h3>
+        <% publication.forEach(publication =>{ %>
+        <div class="card-text mb-2">
+            <ul>
+                <li> <em><%=publication.publication%></em></li>
+            </ul>
+           
+        </div>
+        <% })%>
+    </div>
+</div>
+
+</div>
+
+<%- include('footer')%>

@@ -1,0 +1,26 @@
+<%- include('adminHeader')%>
+
+    <div class="container">
+        <h1 class = "mb-4">All Publications</h1>
+        <a href="/review/adminPublicationForm" class="btn btn-success"> New Publications</a>
+        
+        <% publication.forEach(publication =>{ %>
+            <div class="card mt-4">
+                <div class="card-body">
+            
+                    <div class="card-text mb-2">
+                        <%=publication.publication%>
+                    </div>
+                    
+                    
+                    
+                    <form action ="/review/publication/<%=publication.id%>?_method=DELETE" method="POST" class="d-inline">
+                        <button type="submit" class="btn btn-danger">Delete</button>
+                    </form>
+                </div>
+            </div>
+
+       <% })%>
+
+    </div>
+    <%- include('footer')%>

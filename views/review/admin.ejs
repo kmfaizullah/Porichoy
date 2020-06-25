@@ -1,0 +1,73 @@
+<%- include('adminHeader')%>
+
+<div class="row">
+    <div class="col-4">
+        <div class="card mt-4">
+            <div class="card-body">
+                <h4 class="card-title">Welcome to Admin Profile</h4>
+                <div class="card-subtitle text-muted mb-2">
+                    
+                </div>
+                <div class="card-text mb-2">
+                    K. M. faizullah Fuhad
+                </div>
+
+              
+            </div>
+        </div>
+    </div>
+    <div class="col-8">   
+        
+        <div class="card mt-4">
+            <div class="card-body">
+                <h4 class="card-title">You have access to delete/cretate followings</h4>
+                <div class="card-subtitle text-muted mb-2">
+                    <a href="/review/adminProfile" class="btn btn-success"> Create/Delete Articles</a>
+                    <a href="/review/adminAbout" class="btn btn-success"> Create/Delete About</a>
+                    <a href="/review/adminPublication" class="btn btn-success"> Create/Delete Publications</a>
+                </div>
+
+              
+            </div>
+        </div>
+    </div>
+  </div>
+
+  <div>
+      <h3>Your Message</h3>
+      <% contact.forEach(contact =>{ %>
+        <div class="card mt-4">
+            <div class="card-body">
+        
+                <div class="card-text mb-2">
+                    <h4><%=contact.name%></h4>
+                </div>
+
+                <div class="card-text mb-2">
+                    <h6><%=contact.cnumber%></h6>
+                </div>
+
+                <div class="card-text mb-2">
+                    <h6><%=contact.address%></h6>
+                </div>
+
+                <div class="card-text mb-2">
+                    <h6><%=contact.message%></h6>
+                </div>
+                
+                
+                
+                <form action ="/review/contact/<%=contact.id%>?_method=DELETE" method="POST" class="d-inline">
+                    <button type="submit" class="btn btn-danger">Delete</button>
+                </form>
+            </div>
+        </div>
+
+   <% })%>
+  </div>
+
+
+
+
+
+<%- include('footer')%>

@@ -1,0 +1,29 @@
+<%- include('adminHeader')%>
+
+    <div class="container">
+        <h1 class = "mb-4">Blog Articles</h1>
+        <a href="/review/new" class="btn btn-success"> New Articles</a>
+        
+        <% articles.forEach(article =>{ %>
+            <div class="card mt-4">
+                <div class="card-body">
+                    <h4 class="card-title"><%= article.title%></h4>
+                    <div class="card-subtitle text-muted mb-2">
+                        
+                    </div>
+                    <div class="card-text mb-2">
+                        <%=article.description%>
+                    </div>
+                    <a href="<%=article.markdown%>" class="btn btn-primary">Read More</a>
+
+                    <form action ="/review/<%=article.id%>?_method=DELETE" method="POST" class="d-inline">
+                        <button type="submit" class="btn btn-danger">Delete</button>
+                    </form>
+                </div>
+            </div>
+
+       <% })%>
+
+    </div>
+</body>
+</html>

@@ -1,0 +1,58 @@
+<%- include('header')%>
+
+
+<div class="container">
+    <div class="card mt-4">
+        <div class="card-body">
+            <h3 class="card-title">Contact With Me</h3>
+            
+            <div class="card-text mb-2">
+                House-85, Road-7, Block-B, Bashundhara R/A, Dhaka, Bangladesh
+            </div>
+            <div class="card-text mb-2">
+                Email: faizullah.fuad@gmail.com 
+            </div>
+
+            <div class="card-text mb-2">
+                Alternative Email: faizullahfuhad@gmail.com
+            </div>
+
+            <div class="card-text mb-2">
+                Contact : +8801749406545
+            </div>
+            
+        </div>
+    </div>
+
+    <h3 style="margin-top: 25px; margin-bottom: 15;">Send me message</h3>
+
+    <form action="contactInsert" method="POST">
+        
+          <div class="form-group">
+            <label for="name">Your Name</label>
+            <textarea required name="name" id="name" class="form-control"></textarea>
+          </div>
+
+          <div class="form-group">
+            <label for="cnumber">Your Contact Number</label>
+            <textarea required name="cnumber" id="cnumber" class="form-control"></textarea>
+          </div>
+
+          <div class="form-group">
+            <label for="address">Your Address</label>
+            <textarea required name="address" id="address" class="form-control"></textarea>
+          </div>
+
+          <div class="form-group">
+            <label for="message">Your Message</label>
+            <textarea required name="message" id="message" class="form-control"></textarea>
+          </div>
+         
+          
+          <a href="/review/contact" class="btn btn-secondary">Cancel</a>
+          <button type="submit" class="btn btn-primary">Save</button>
+
+    </form>
+ </div>
+
+<%- include('footer')%>

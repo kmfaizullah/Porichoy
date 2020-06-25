@@ -1,0 +1,23 @@
+<%- include('adminHeader')%>
+
+<div class="container">
+    <h1 class="mb-4">Information About Me</h1>
+    <form action="publicationInsert" method="POST">
+        
+          <div class="form-group">
+            <label for="publication">Publications</label>
+            <textarea required name="publication" id="publication" class="form-control"></textarea>
+          </div>
+         
+          
+          <a href="/review/adminPublication" class="btn btn-secondary">Cancel</a>
+          <button type="submit" class="btn btn-primary">Save</button>
+
+    </form>
+ </div>
+
+
+
+
+
+<%- include('footer')%>

@@ -1,0 +1,68 @@
+<%- include('header')%>
+
+
+<div class="row">
+    <% about.forEach(about =>{ %>
+    <div  class="col-6">
+      <img class="img-thumbnail" src="/images/fuhad.jpg">
+    </div>
+    <div class="col-6">   
+        <div class="container">
+            
+                <div class="card mt-4">
+                    <div class="card-body">
+                        <h3 class="card-title"><%= about.name%></h3>
+                
+                        <div class="card-text mb-2">
+                            <%=about.summary%>
+                        </div>
+                        <div class="card-text mb-2">
+                            <%=about.graduate%>
+                        </div>
+                        <div class="card-text mb-2">
+                            <%=about.hsc%>
+                        </div>
+                        <div class="card-text mb-2">
+                            <%=about.ssc%>
+                        </div>
+                        
+                    </div>
+                </div>
+
+                <div class="card mt-4">
+                    <div class="card-body">
+                        <h3 class="card-title">Key Skills</h3>
+                
+                        <div class="card-text mb-2">
+                           Programming Language:  <%=about.language%>
+                        </div>
+                        <div class="card-text mb-2">
+                            Frameworks: <%=about.framework%>
+                        </div>
+                        <div class="card-text mb-2">
+                            Others: <%=about.others%>
+                        </div>
+                        
+                    </div>
+                </div>
+    
+           
+    
+    </div>
+  </div>
+  <div class="card mt-4">
+    <div class="card-body">
+        <h3 class="card-title">Leadership & Extracurricular Activities</h3>
+
+        <div class="card-text mb-2">
+           <%=about.leader%>
+        </div>
+        
+    </div>
+</div>
+<% })%>
+</div>
+
+
+
+<%- include('footer')%>
