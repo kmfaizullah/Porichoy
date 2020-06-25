@@ -1,6 +1,6 @@
 ## Porichoy : A large Scale Web Application containing Personal Information
-This is a complete web application containing personal Information. In this application, to integrate frontend with Mongodb, Node.js and express.js has been used.
-Technology/Tools : Node.js, Express.js, Mongodb, Boostrap, HTML, CSS
+This is a complete web application containing personal Information where Node.js and express.js has been used to integrate front-end with Mongodb database. <br>
+<b>Technology/Tools : </b> Node.js, Express.js, Mongodb, Boostrap, HTML, CSS
 <h6> <a href="https://youtu.be/GD7KtLjFPUE">Click here to see the Demo</h6>
 
 #### Dependencies
