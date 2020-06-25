@@ -17,7 +17,7 @@ Technology/Tools : Node.js, Express.js, Mongodb, Boostrap, HTML, CSS
 Note  : Express is our server, moggose will be required for database and ejs for different views. <br>
 <b>Step 4: </b> Install nodemon by executing following command for automaticaaly refresh the server. <h5> `npm i --save-dev nodemon` </h5>
 <b>Step 5: </b> Go inside the package.json file and change the test inside the scripts to <em> "start" : "nodemon server.js" </em> <br>
-<b>Step 6: </b> Download the porichoy repository and extracted the files. <b>
+<b>Step 6: </b> Download the porichoy repository and extracted the files. <br>
 <b>Step 7: </b> Copy the models, public, views, routes and server files from extracted repository to your project repository <b>
 <b>Step 8: </b> Download the mongodb from the following link. <h5>`https://www.mongodb.com/try/download/community` </h5>
 <b>Step 9: </b> Install the mongodb to your local computer. Also install mongodb compass. <br>
