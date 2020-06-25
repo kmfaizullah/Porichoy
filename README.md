@@ -24,7 +24,7 @@ Note  : Express is our server, moggose will be required for database and ejs for
 <b>Step 10: </b> After installing mongodb go to `cdrive->program files->mongodb->server->4.2(any version)->bin` folder. Open terminal and execute `mongod` command to start mongodb. <br>
 <b>Step 11: </b> Run MongoDB Compass.<br>
 <b>Step 12: </b> Using MongoDP Compass create `blog` database and `abouts, articles, contacts, publications, signups` collections. <br>
-<b>Step 13: </b> Import data to the collection from the extracted `abouts.json, articles.json, publications.json, contacts.json, signups.json` files. <br>
+<b>Step 13: </b> Import data to the collection from the extracted `abouts.json, articles.json, publications.json, contacts.json, signups.json` files from <em> Data </em> folder. <br>
 <b>Step 14: </b> Run `npm start` command in terminal. It will start your project. <br>
 <b>Step 15: </b> Got to your web browser and type `localhost:5000`. The project will be visualized.<br>
 
