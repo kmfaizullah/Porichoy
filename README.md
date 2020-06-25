@@ -10,7 +10,7 @@ Technology/Tools : Node.js, Express.js, Mongodb, Boostrap, HTML, CSS
 5. MongoDB
 
 #### Running Procedure
-Step 1: Create a folder containing any name.
-Step 2: Go inside the folcer, open terminal and execute `npm init -y` to create server.
+Step 1: Create a folder containing any name. <br>
+Step 2: Go inside the folcer, open terminal and execute `npm init -y` to create server. <br>
 
 
