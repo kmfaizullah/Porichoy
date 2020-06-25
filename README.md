@@ -11,11 +11,11 @@ Technology/Tools : Node.js, Express.js, Mongodb, Boostrap, HTML, CSS
 6. MongoDB
 
 #### Running Procedure
-Step 1: Create a folder containing any name. <br>
-Step 2: Go inside the folcer, open terminal and execute `npm init -y` to create server. <br>
-Step 3: Intall all the dependencies by executing `npm i express mongoose ejs` command. <br>
+<b>Step 1: </b> Create a folder containing any name. <br>
+<b>Step 2: </b> Go inside the folcer, open terminal and execute <h5> `npm init -y` </h5> to create server. <br>
+<b>Step 3: </b> Intall all the dependencies by executing <h5> `npm i express mongoose ejs` </h5> command. <br>
 Note  : Express is our server, moggose will be required for database and ejs for different views. <br>
-Step 4: Install nodemon by executing `npm i --save-dev nodemon` command for automaticaaly refresh our server.
+<b>Step 4: </b> Install nodemon by executing <h5> `npm i --save-dev nodemon` </h5> command for automaticaaly refresh our server.
 
 
 
