@@ -15,6 +15,7 @@ Step 1: Create a folder containing any name. <br>
 Step 2: Go inside the folcer, open terminal and execute `npm init -y` to create server. <br>
 Step 3: Intall all the dependencies by executing `npm i express mongoose ejs` command. <br>
 Note  : Express is our server, moggose will be required for database and ejs for different views. <br>
+Step 4: Install nodemon by executing `npm i --save-dev nodemon` command for automaticaaly refresh our server.
 
 
 
