@@ -1,6 +1,7 @@
 ## Porichoy : A large Scale Web Application containing Personal Information
 This is a complete web application containing personal Information. In this application, to integrate frontend with Mongodb, Node.js and express.js has been used.
 Technology/Tools : Node.js, Express.js, Mongodb, Boostrap, HTML, CSS
+<h6> <a href="https://youtu.be/GD7KtLjFPUE">Click here to see the Demo</h6>
 
 #### Dependencies
 1. It has been tested in windows 10 machine. 
@@ -27,6 +28,7 @@ Note  : Express is our server, moggose will be required for database and ejs for
 <b>Step 13: </b> Import data to the collection from the extracted `abouts.json, articles.json, publications.json, contacts.json, signups.json` files from <em> Data </em> folder. <br>
 <b>Step 14: </b> Run `npm start` command in terminal. It will start your project. <br>
 <b>Step 15: </b> Got to your web browser and type `localhost:5000`. The project will be visualized.<br>
+<b>Step 16: </b> To get access admin login use url `localhost:5000/review/adminLogin` or to get access admin profile directly use url `localhost:5000/review/admin`. <br>
 
 
 
